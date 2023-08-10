@@ -1,9 +1,9 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
-import New from './pages/New';
-import Diary from './pages/Diary';
-import Edit from './pages/Edit';
+import Home from './Pages/Home';
+import New from './Pages/New';
+import Diary from './Pages/Diary';
+import Edit from './Pages/Edit';
 import React, { useReducer, useRef, useEffect, useState } from 'react';
 
 export const DiaryStateContext = React.createContext();
